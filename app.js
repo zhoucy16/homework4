@@ -6,7 +6,7 @@ const controller = require('./controller');
 
 const app = new Koa();
 
-const mytoken = '1234567890';
+const mytoken = '9d6eeaf8c7ec2aeff3c9cff5a1f5f14b1f90d4e0';
 
 app.use(async (ctx, next) => {
     console.log(`Process ${ctx.request.method} ${ctx.request.url}...`);
